@@ -43,6 +43,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    column-gap: 16px;
 }
 
 .welcome-item {
@@ -86,13 +87,13 @@ ul {
 .info {
     margin-top: 50px;
     margin-bottom: 100px;
+    color: #1f2937;
 }
 
 .info .title{
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
 }
 
 .info-detail {
@@ -114,4 +115,28 @@ ul {
     border: 3px solid #3882f6;
     border-radius: 7%;
     margin-bottom: 10px;
+}
+
+/* third section: quote */
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    width: 800px;
+    text-align: right;
+    margin: 0 auto;
 }
